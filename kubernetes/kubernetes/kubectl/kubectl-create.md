@@ -1,6 +1,6 @@
 # kubectl create
 
-Create a resource from a file or from stdin. 
+Create a resource from a file or from stdin.
 
 JSON and YAML formats are accepted.
 
