@@ -19,14 +19,13 @@ Possible resources include (case insensitive): pod (po), service (svc), replicat
 ## Usage:
 
 ```
-kubectl expose (-f FILENAME | TYPE NAME) 
-               [--port=port]
-               [--protocol=TCP|UDP|SCTP]
-               [--target-port=number-or-name]
-               [--name=name]
-               [--external-ip=external-ip-of-service]
-               [--type=type]
-               [options]
+kubectl expose (-f FILENAME | TYPE NAME) [--port=port]
+                                         [--protocol=TCP|UDP|SCTP]
+                                         [--target-port=number-or-name]
+                                         [--name=name]
+                                         [--external-ip=external-ip-of-service]
+                                         [--type=type]
+                                         [options]
 ```
 
 Use **`kubectl options`** for a list of global command-line options (applies to all commands).
