@@ -7,5 +7,6 @@
 + [kubectl run](kubectl-run.md)
 + [kubectl set](kubectl-set.md)
 + [kubectl explain](kubectl-explain.md)
++ [kubectl get](kubectl-get.md)
 
 
