@@ -8,5 +8,6 @@
 + [kubectl set](kubectl-set.md)
 + [kubectl explain](kubectl-explain.md)
 + [kubectl get](kubectl-get.md)
++ [kubectl edit](kubectl-edit.md)
 
 
