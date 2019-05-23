@@ -6,5 +6,6 @@
 + [kubectl expose](kubectl-expose.md)
 + [kubectl run](kubectl-run.md)
 + [kubectl set](kubectl-set.md)
++ [kubectl explain](kubectl-explain.md)
 
 
