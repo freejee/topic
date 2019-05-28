@@ -9,9 +9,11 @@ We will not be making changes to Heapster.
 The following are potential migration paths for Heapster functionality:
 
 + **For basic CPU/memory HPA metrics**: Use [metrics-server](https://github.com/kubernetes-incubator/metrics-server).
+
 + **For general monitoring**: Consider a third-party monitoring pipeline that can gather Prometheus-formatted metrics.
   The kubelet exposes all the metrics exported by Heapster in Prometheus format.
   One such monitoring pipeline can be set up using the [Prometheus Operator](https://github.com/coreos/prometheus-operator), which deploys Prometheus itself for this purpose.
+
 + **For event transfer**: Several third-party tools exist to transfer/archive Kubernetes events, depending on your sink.
   [heptiolabs/eventrouter](https://github.com/heptiolabs/eventrouter) has been suggested as a general alternative.
 
@@ -46,7 +48,9 @@ Heapster can run on a Kubernetes cluster using a number of backends.
 Some common choices:
 
 + [InfluxDB](docs/influxdb.md)
+
 + [Stackdriver Monitoring and Logging](docs/google.md) for Google Cloud Platform
+
 + [Other backends](docs/)
 
 ## Running Heapster on OpenShift
