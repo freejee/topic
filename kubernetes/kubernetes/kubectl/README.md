@@ -148,6 +148,6 @@
 + [kubectl plugin](kubectl-plugin.md) kubectl plugin --help
 + [kubectl plugin list](kubectl-plugin-list.md) kubectl plugin list --help
 
-+ [kubectl version](kubectl-version.md) kubectl version --help
++ [kubectl version](kubectl-version.md)
 
 
