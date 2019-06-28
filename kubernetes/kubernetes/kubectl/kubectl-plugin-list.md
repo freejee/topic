@@ -8,7 +8,7 @@
 
 List all available plugin files on a user's PATH.
 
-Available plugin files are those that are: - executable - anywhere on the user's PATH - begin with **`kubectl-`**
+Available plugin files are those that are: - executable - anywhere on the user's PATH - begin with **`kubectl-`**.
 
 ## 用法
 
@@ -20,7 +20,7 @@ Use **`kubectl options`** for a list of global command-line options (applies to 
 
 ## 选项
 
-+ **`--name-only=true`**: 
-If true, display only the binary name of each plugin, rather than its full path.
++ **`--name-only=false`**: 
+If **`true`**, display only the binary name of each plugin, rather than its full path.
 
 
