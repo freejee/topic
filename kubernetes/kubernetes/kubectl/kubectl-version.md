@@ -19,11 +19,11 @@ Use **`kubectl options`** for a list of global command-line options (applies to 
 
 ## 选项
 
-+ **`--client=true`**: 
-Client version only (no server required).
++ **`--client=false`**: 
+If **`true`**, client version only (no server required).
 
-+ **`--short=true`**: 
-Print just the version number.
++ **`--short=false`**: 
+If **`true`**, print just the version number.
 
 + **`--output, -o=''`**: 
 One of **`yaml`** or **`json`**.
