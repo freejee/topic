@@ -1,0 +1,12 @@
+
+[root@104004-m-sg-1-3 ~]# docker stats --help
+
+Usage:	docker stats [OPTIONS] [CONTAINER...]
+
+Display a live stream of container(s) resource usage statistics
+
+Options:
+  -a, --all             Show all containers (default shows just running)
+      --format string   Pretty-print images using a Go template
+      --no-stream       Disable streaming stats and only pull the first result
+      --no-trunc        Do not truncate output

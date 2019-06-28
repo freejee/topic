@@ -1,0 +1,16 @@
+[root@104004-m-sg-1-3 ~]#     docker trust --help
+
+Usage:	docker trust COMMAND
+
+Manage trust on Docker images
+
+Management Commands:
+  key         Manage keys for signing Docker images
+  signer      Manage entities who can sign Docker images
+
+Commands:
+  inspect     Return low-level information about keys and signatures
+  revoke      Remove trust for an image
+  sign        Sign an image
+
+Run 'docker trust COMMAND --help' for more information on a command.

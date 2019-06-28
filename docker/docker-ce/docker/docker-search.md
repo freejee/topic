@@ -1,0 +1,12 @@
+
+[root@104004-m-sg-1-3 ~]# docker search --help
+
+Usage:	docker search [OPTIONS] TERM
+
+Search the Docker Hub for images
+
+Options:
+  -f, --filter filter   Filter output based on conditions provided
+      --format string   Pretty-print search using a Go template
+      --limit int       Max number of search results (default 25)
+      --no-trunc        Don't truncate output

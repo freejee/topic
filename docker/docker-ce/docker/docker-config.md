@@ -1,0 +1,15 @@
+[root@104004-m-sg-1-3 ~]# docker config --help
+
+Usage:	docker config COMMAND
+
+Manage Docker configs
+
+Commands:
+  create      Create a config from a file or STDIN
+  inspect     Display detailed information on one or more configs
+  ls          List configs
+  rm          Remove one or more configs
+
+Run 'docker config COMMAND --help' for more information on a command.
+
+
