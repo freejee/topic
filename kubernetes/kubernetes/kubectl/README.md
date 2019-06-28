@@ -145,7 +145,7 @@
 + [kubectl config use-context](kubectl-config-use-context.md) kubectl config use-context --help
 + [kubectl config view](kubectl-config-view.md) kubectl config view --help
 
-+ [kubectl plugin](kubectl-plugin.md) kubectl plugin --help
++ [kubectl plugin](kubectl-plugin.md)
 + [kubectl plugin list](kubectl-plugin-list.md)
 
 + [kubectl version](kubectl-version.md)
