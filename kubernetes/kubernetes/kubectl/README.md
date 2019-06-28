@@ -142,7 +142,7 @@
 + [kubectl config set-context](kubectl-config-set-context.md) kubectl config set-context --help
 + [kubectl config set-credentials](kubectl-config-set-credentials.md) kubectl config set-credentials --help
 + [kubectl config unset](kubectl-config-unset.md) kubectl config unset --help
-+ [kubectl config use-context](kubectl-config-use-context.md) kubectl config use-context --help
++ [kubectl config use-context](kubectl-config-use-context.md)
 + [kubectl config view](kubectl-config-view.md)
 
 + [kubectl plugin](kubectl-plugin.md)
