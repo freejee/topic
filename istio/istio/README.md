@@ -26,7 +26,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
 + Setup: How to deploy and upgrade Istio in various environments such as Kubernetes and Consul.
     + [Kubernetes](setup/installing-on-kubernetes.md): Instructions for installing the Istio control plane on Kubernetes and adding virtual machines into the mesh.
         + [Getting Started](): Download, install, and try out Istio.
-        + [Platform Setup](): How to prepare various Kubernetes platforms before installing Istio.
+        + [Platform Setup](setup/platform-setup.md): How to prepare various Kubernetes platforms before installing Istio.
             + [Alibaba Cloud](): Instructions to setup an Alibaba Cloud Kubernetes cluster for Istio.
             + [Azure](): Instructions to setup an Azure cluster for Istio.
             + [Docker Desktop](): Instructions to setup Docker Desktop for use with Istio.
