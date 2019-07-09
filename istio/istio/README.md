@@ -197,7 +197,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
                 + [Wavefront by VMware](): Adapter to deliver metrics to Wavefront by VMware.
                 + [Zipkin](): Adapter to deliver tracing data to Zipkin.
             + [Default Metrics](): Default Metrics exported from Istio through Mixer.
-            + [Templates](): Mixer templates are used to send data to individual adapters.
+            + [Templates](reference/templates.md): Mixer templates are used to send data to individual adapters.
                 + [API Key](): A template that represents a single API key.
                 + [Analytics](): The Analytics template is used to dispatch runtime telemetry to Apigee.
                 + [Authorization](): A template used to represent an access control query.
