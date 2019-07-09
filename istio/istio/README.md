@@ -39,7 +39,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
         + [Install](setup/install.md): Choose the guide that best suits your needs and platform.
             + [Quick Start Evaluation Install](): Instructions to install and configure an Istio mesh in a Kubernetes cluster for evaluation.
             + [Customizable Install with Helm](): Instructions to install Istio using a Helm chart.
-            + [Multicluster Installation](): Configure an Istio mesh spanning multiple Kubernetes clusters.
+            + [Multicluster Installation](setup/multicluster-installation.md): Configure an Istio mesh spanning multiple Kubernetes clusters.
                 + [Gateway Connectivity](): Install an Istio mesh across multiple Kubernetes clusters using Istio Gateway to reach remote pods.
                 + [VPN Connectivity](): Install an Istio mesh across multiple Kubernetes clusters with direct network access to remote pods.
             + Platform-specific Instructions: Additional installation flows for the supported Kubernetes platforms.
