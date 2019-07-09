@@ -36,7 +36,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
             + [Minikube](): Instructions to setup minikube for use with Istio.
             + [OpenShift](): Instructions to setup an OpenShift cluster for Istio.
             + [Oracle Cloud Infrastructure](): Instructions to setup an OKE cluster for Istio.
-        + [Install](): Choose the guide that best suits your needs and platform.
+        + [Install](setup/install.md): Choose the guide that best suits your needs and platform.
             + [Quick Start Evaluation Install](): Instructions to install and configure an Istio mesh in a Kubernetes cluster for evaluation.
             + [Customizable Install with Helm](): Instructions to install Istio using a Helm chart.
             + [Multicluster Installation](): Configure an Istio mesh spanning multiple Kubernetes clusters.
