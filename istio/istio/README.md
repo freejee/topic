@@ -116,7 +116,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
             + [LightStep](): How to configure the proxies to send tracing requests to LightStep.
         + [Visualizing Your Mesh](): This task shows you how to visualize your services within an Istio mesh.
         + [Remotely Accessing Telemetry Addons](): This task shows you how to configure external access to the set of Istio telemetry addons.
-    + [Multicluster Service Mesh](): A variety of fully working multicluster examples for Istio that you can experiment with.
+    + [Multicluster Service Mesh](task/multicluster-service-mesh.md): A variety of fully working multicluster examples for Istio that you can experiment with.
         + [Gateway-Connected Clusters](): Configuring remote services in a gateway-connected multicluster mesh.
         + [Google Kubernetes Engine](): Set up a multicluster mesh over two GKE clusters.
         + [IBM Cloud Private](): Example multicluster mesh over two IBM Cloud Private clusters.
