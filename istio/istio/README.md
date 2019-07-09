@@ -174,7 +174,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
             + [Mixer Configuration Model](): Describes the configuration model for Istio's policy enforcement and telemetry mechanisms.
             + [Attribute Vocabulary](): Describes the base attribute vocabulary used for policy and control.
             + [Expression Language](): Mixer configuration expression language reference.
-            + [Adapters](): Mixer adapters allow Istio to interface to a variety of infrastructure backends for such things as metrics and logs.
+            + [Adapters](reference/adapters.md): Mixer adapters allow Istio to interface to a variety of infrastructure backends for such things as metrics and logs.
                 + [Apache SkyWalking](): Adapter to deliver metrics to Apache SkyWalking.
                 + [Apigee](): Adapter for Apigee's distributed policy checks and analytics.
                 + [Circonus](): Adapter for circonus.com's monitoring solution.
