@@ -125,10 +125,10 @@ The policy enforcement component of Istio can be extended and customized to inte
 An Istio service mesh is logically split into a **`data plane`** and a **`control plane`**.
 
 + The **`data plane`** is composed of a set of intelligent proxies ([Envoy](https://www.envoyproxy.io/)) deployed as sidecars.
-These proxies mediate and control all network communication between microservices along with [Mixer](https://istio.io/docs/reference/config/policy-and-telemetry/), a general-purpose policy and telemetry hub.
+  These proxies mediate and control all network communication between microservices along with [Mixer](https://istio.io/docs/reference/config/policy-and-telemetry/), a general-purpose policy and telemetry hub.
 
 + The **`control plane`** manages and configures the proxies to route traffic.
-Additionally, the control plane configures Mixers to enforce policies and collect telemetry.
+  Additionally, the control plane configures Mixers to enforce policies and collect telemetry.
 
 The following diagram shows the different components that make up each plane:
 
@@ -218,29 +218,33 @@ A few key design goals informed Istio's architecture.
 
 These goals are essential to making the system capable of dealing with services at scale and with high performance.
 
-+ **`Maximize Transparency`**: To adopt Istio, an operator or developer is required to do the minimum amount of work possible to get real value from the system.
-To this end, Istio can automatically inject itself into all the network paths between services.
-Istio uses sidecar proxies to capture traffic and, where possible, automatically program the networking layer to route traffic through those proxies without any changes to the deployed application code.
-In Kubernetes, the proxies are injected into pods and traffic is captured by programming **`iptables`** rules.
-Once the sidecar proxies are injected and traffic routing is programmed, Istio can mediate all traffic.
-This principle also applies to performance.
-When applying Istio to a deployment, operators see a minimal increase in resource costs for the functionality being provided.
-Components and APIs must all be designed with performance and scale in mind.
++ **`Maximize Transparency`**:
+  To adopt Istio, an operator or developer is required to do the minimum amount of work possible to get real value from the system.
+  To this end, Istio can automatically inject itself into all the network paths between services.
+  Istio uses sidecar proxies to capture traffic and, where possible, automatically program the networking layer to route traffic through those proxies without any changes to the deployed application code.
+  In Kubernetes, the proxies are injected into pods and traffic is captured by programming **`iptables`** rules.
+  Once the sidecar proxies are injected and traffic routing is programmed, Istio can mediate all traffic.
+  This principle also applies to performance.
+  When applying Istio to a deployment, operators see a minimal increase in resource costs for the functionality being provided.
+  Components and APIs must all be designed with performance and scale in mind.
 
-+ **`Extensibility`**: As operators and developers become more dependent on the functionality that Istio provides, the system must grow with their needs.
-While we continue to add new features, the greatest need is the ability to extend the policy system, to integrate with other sources of policy and control, and to propagate signals about mesh behavior to other systems for analysis.
-The policy runtime supports a standard extension mechanism for plugging in other services.
-In addition, it allows for the extension of its vocabulary to allow policies to be enforced based on new signals that the mesh produces.
++ **`Extensibility`**:
+  As operators and developers become more dependent on the functionality that Istio provides, the system must grow with their needs.
+  While we continue to add new features, the greatest need is the ability to extend the policy system, to integrate with other sources of policy and control, and to propagate signals about mesh behavior to other systems for analysis.
+  The policy runtime supports a standard extension mechanism for plugging in other services.
+  In addition, it allows for the extension of its vocabulary to allow policies to be enforced based on new signals that the mesh produces.
 
-+ **`Portability`**: The ecosystem in which Istio is used varies along many dimensions.
-Istio must run on any cloud or on-premises environment with minimal effort.
-The task of porting Istio-based services to new environments must be trivial.
-Using Istio, you are able to operate a single service deployed into multiple environments.
-For example, you can deploy on multiple clouds for redundancy.
++ **`Portability`**:
+  The ecosystem in which Istio is used varies along many dimensions.
+  Istio must run on any cloud or on-premises environment with minimal effort.
+  The task of porting Istio-based services to new environments must be trivial.
+  Using Istio, you are able to operate a single service deployed into multiple environments.
+  For example, you can deploy on multiple clouds for redundancy.
 
-+ **`Policy Uniformity`**: The application of policy to API calls between services provides a great deal of control over mesh behavior.
-However, it can be equally important to apply policies to resources which are not necessarily expressed at the API level.
-For example, applying a quota to the amount of CPU consumed by an ML training task is more useful than applying a quota to the call which initiated the work.
-To this end, Istio maintains the policy system as a distinct service with its own API rather than the policy system being baked into the proxy sidecar, allowing services to directly integrate with it as needed.
++ **`Policy Uniformity`**:
+  The application of policy to API calls between services provides a great deal of control over mesh behavior.
+  However, it can be equally important to apply policies to resources which are not necessarily expressed at the API level.
+  For example, applying a quota to the amount of CPU consumed by an ML training task is more useful than applying a quota to the call which initiated the work.
+  To this end, Istio maintains the policy system as a distinct service with its own API rather than the policy system being baked into the proxy sidecar, allowing services to directly integrate with it as needed.
 
 
