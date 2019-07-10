@@ -60,67 +60,67 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
         + [Installation](): Instructions for installing the Istio control plane in a Consul-based environment, with or without Nomad.
 + Tasks: How to do single specific targeted activities with the Istio system.
     + Traffic Management: Tasks that demonstrate Istio's traffic routing features.
-        + [Request Routing](): This task shows you how to configure dynamic request routing to multiple versions of a microservice.
-        + [Fault Injection](): This task shows you how to inject faults to test the resiliency of your application.
-        + [Traffic Shifting](): Shows you how to migrate traffic from an old to new version of a service.
-        + [TCP Traffic Shifting](): Shows you how to migrate TCP traffic from an old to new version of a TCP service.
-        + [Request Timeouts](): This task shows you how to setup request timeouts in Envoy using Istio.
-        + [Circuit Breaking](): This task shows you how to configure circuit breaking for connections, requests, and outlier detection.
-        + [Mirroring](): This task demonstrates the traffic mirroring/shadowing capabilities of Istio.
+        + [Request Routing](task/request-routing.md): This task shows you how to configure dynamic request routing to multiple versions of a microservice.
+        + [Fault Injection](task/): This task shows you how to inject faults to test the resiliency of your application.
+        + [Traffic Shifting](task/): Shows you how to migrate traffic from an old to new version of a service.
+        + [TCP Traffic Shifting](task/): Shows you how to migrate TCP traffic from an old to new version of a TCP service.
+        + [Request Timeouts](task/): This task shows you how to setup request timeouts in Envoy using Istio.
+        + [Circuit Breaking](task/): This task shows you how to configure circuit breaking for connections, requests, and outlier detection.
+        + [Mirroring](task/): This task demonstrates the traffic mirroring/shadowing capabilities of Istio.
         + Ingress: Controlling ingress traffic for an Istio service mesh.
-            + [Ingress Gateways](): Describes how to configure an Istio gateway to expose a service outside of the service mesh.
-            + [Secure Gateways (File Mount)](): Expose a service outside of the service mesh over TLS or mTLS using file-mounted certificates.
-            + [Secure Gateways (SDS)](): Expose a service outside of the service mesh over TLS or mTLS using the secret discovery service (SDS).
-            + [Ingress Gateway without TLS Termination](): Describes how to configure SNI passthrough for an ingress gateway.
-            + [Kubernetes Ingress with Cert-Manager](): Demonstrates how to obtain Let's Encrypt TLS certificates for Kubernetes Ingress automatically using Cert-Manager.
+            + [Ingress Gateways](task/): Describes how to configure an Istio gateway to expose a service outside of the service mesh.
+            + [Secure Gateways (File Mount)](task/): Expose a service outside of the service mesh over TLS or mTLS using file-mounted certificates.
+            + [Secure Gateways (SDS)](task/): Expose a service outside of the service mesh over TLS or mTLS using the secret discovery service (SDS).
+            + [Ingress Gateway without TLS Termination](task/): Describes how to configure SNI passthrough for an ingress gateway.
+            + [Kubernetes Ingress with Cert-Manager](task/): Demonstrates how to obtain Let's Encrypt TLS certificates for Kubernetes Ingress automatically using Cert-Manager.
         + Egress: Controlling egress traffic for an Istio service mesh.
-            + [Accessing External Services](): Describes how to configure Istio to route traffic from services in the mesh to external services.
-            + [Egress TLS Origination](): Describes how to configure Istio to perform TLS origination for traffic to external services.
-            + [Egress Gateways](): Describes how to configure Istio to direct traffic to external services through a dedicated gateway.
-            + [Egress Gateways with TLS Origination](): Describes how to configure an Egress Gateway to perform TLS origination to external services.
-            + [Egress using Wildcard Hosts](): Describes how to enable egress traffic for a set of hosts in a common domain, instead of configuring each and every host separately.
-            + [Monitoring and Policies for TLS Egress](): Describes how to configure SNI monitoring and apply policies on TLS egress traffic.
-            + [Using an External HTTPS Proxy](): Describes how to configure Istio to let applications use an external HTTPS proxy.
+            + [Accessing External Services](task/): Describes how to configure Istio to route traffic from services in the mesh to external services.
+            + [Egress TLS Origination](task/): Describes how to configure Istio to perform TLS origination for traffic to external services.
+            + [Egress Gateways](task/): Describes how to configure Istio to direct traffic to external services through a dedicated gateway.
+            + [Egress Gateways with TLS Origination](task/): Describes how to configure an Egress Gateway to perform TLS origination to external services.
+            + [Egress using Wildcard Hosts](task/): Describes how to enable egress traffic for a set of hosts in a common domain, instead of configuring each and every host separately.
+            + [Monitoring and Policies for TLS Egress](task/): Describes how to configure SNI monitoring and apply policies on TLS egress traffic.
+            + [Using an External HTTPS Proxy](task/): Describes how to configure Istio to let applications use an external HTTPS proxy.
     + Security: Demonstrates how to secure the mesh.
-        + [Authentication Policy](): Shows you how to use Istio authentication policy to setup mutual TLS and basic end-user authentication.
-        + [Authorization for HTTP Services](): Shows how to set up role-based access control for HTTP services.
-        + [Authorization for TCP Services](): Shows how to set up role-based access control for TCP services.
-        + [Authorization for groups and list claims](): Tutorial on how to configure the groups-base authorization and configure the authorization of list-typed claims in Istio.
-        + [Authorization permissive mode](): Shows how to use Authorization permissive mode.
-        + [Istio Vault CA Integration](): This task shows you how to integrate a Vault Certificate Authority with Istio for mutual TLS.
-        + [Mutual TLS Deep-Dive](): Shows you how to verify and test Istio's automatic mutual TLS authentication.
-        + [Plugging in External CA Key and Certificate](): Shows how operators can configure Citadel with existing root certificate, signing certificate and key.
-        + [Citadel Health Checking](): Shows how to enable Citadel health checking with Kubernetes.
-        + [Provisioning Identity through SDS](): Shows how to enable SDS (secret discovery service) for Istio identity provisioning.
-        + [Mutual TLS Migration](): Shows you how to incrementally migrate your Istio services to mutual TLS.
-        + [Mutual TLS over HTTPS](): Shows how to enable mutual TLS on HTTPS services.
+        + [Authentication Policy](task/): Shows you how to use Istio authentication policy to setup mutual TLS and basic end-user authentication.
+        + [Authorization for HTTP Services](task/): Shows how to set up role-based access control for HTTP services.
+        + [Authorization for TCP Services](task/): Shows how to set up role-based access control for TCP services.
+        + [Authorization for groups and list claims](task/): Tutorial on how to configure the groups-base authorization and configure the authorization of list-typed claims in Istio.
+        + [Authorization permissive mode](task/): Shows how to use Authorization permissive mode.
+        + [Istio Vault CA Integration](task/): This task shows you how to integrate a Vault Certificate Authority with Istio for mutual TLS.
+        + [Mutual TLS Deep-Dive](task/): Shows you how to verify and test Istio's automatic mutual TLS authentication.
+        + [Plugging in External CA Key and Certificate](task/): Shows how operators can configure Citadel with existing root certificate, signing certificate and key.
+        + [Citadel Health Checking](task/): Shows how to enable Citadel health checking with Kubernetes.
+        + [Provisioning Identity through SDS](task/): Shows how to enable SDS (secret discovery service) for Istio identity provisioning.
+        + [Mutual TLS Migration](task/): Shows you how to incrementally migrate your Istio services to mutual TLS.
+        + [Mutual TLS over HTTPS](task/): Shows how to enable mutual TLS on HTTPS services.
     + Policies: Demonstrates policy enforcement features.
-        + [Enabling Policy Enforcement](): This task shows you how to enable Istio policy enforcement.
-        + [Enabling Rate Limits](): This task shows you how to use Istio to dynamically limit the traffic to a service.
-        + [Control Headers and Routing](): Shows how to modify request headers and routing using policy adapters.
-        + [Denials and White/Black Listing](): Shows how to control access to a service using simple denials or white/black listing.
+        + [Enabling Policy Enforcement](task/): This task shows you how to enable Istio policy enforcement.
+        + [Enabling Rate Limits](task/): This task shows you how to use Istio to dynamically limit the traffic to a service.
+        + [Control Headers and Routing](task/): Shows how to modify request headers and routing using policy adapters.
+        + [Denials and White/Black Listing](task/): Shows how to control access to a service using simple denials or white/black listing.
     + Telemetry: Demonstrates how to collect telemetry information from the mesh.
         + Metrics: Demonstrates the configuration, collection, and processing of Istio mesh metrics.
-            + [Collecting Metrics](): This task shows you how to configure Istio to collect and customize metrics.
-            + [Collecting Metrics for TCP services](): This task shows you how to configure Istio to collect metrics for TCP services.
-            + [Querying Metrics from Prometheus](): This task shows you how to query for Istio Metrics using Prometheus.
-            + [Visualizing Metrics with Grafana](): This task shows you how to setup and use the Istio Dashboard to monitor mesh traffic.
+            + [Collecting Metrics](task/): This task shows you how to configure Istio to collect and customize metrics.
+            + [Collecting Metrics for TCP services](task/): This task shows you how to configure Istio to collect metrics for TCP services.
+            + [Querying Metrics from Prometheus](task/): This task shows you how to query for Istio Metrics using Prometheus.
+            + [Visualizing Metrics with Grafana](task/): This task shows you how to setup and use the Istio Dashboard to monitor mesh traffic.
         + Logs: Demonstrates the configuration, collection, and processing of Istio mesh logs.
-            + [Collecting Logs](): This task shows you how to configure Istio to collect and customize logs.
-            + [Getting Envoy's Access Logs](): This task shows you how to configure Envoy proxies to print access log to their standard output.
-            + [Logging with Fluentd](): This task shows you how to configure Istio to log to a Fluentd daemon.
+            + [Collecting Logs](task/): This task shows you how to configure Istio to collect and customize logs.
+            + [Getting Envoy's Access Logs](task/): This task shows you how to configure Envoy proxies to print access log to their standard output.
+            + [Logging with Fluentd](task/): This task shows you how to configure Istio to log to a Fluentd daemon.
         + Distributed Tracing: This task shows you how to configure Istio-enabled applications to collect trace spans.
-            + [Overview](): Overview of distributed tracing in Istio.
-            + [Jaeger](): Learn how to configure the proxies to send tracing requests to Jaeger.
-            + [Zipkin](): Learn how to configure the proxies to send tracing requests to Zipkin.
-            + [LightStep](): How to configure the proxies to send tracing requests to LightStep.
-        + [Visualizing Your Mesh](): This task shows you how to visualize your services within an Istio mesh.
-        + [Remotely Accessing Telemetry Addons](): This task shows you how to configure external access to the set of Istio telemetry addons.
+            + [Overview](task/): Overview of distributed tracing in Istio.
+            + [Jaeger](task/): Learn how to configure the proxies to send tracing requests to Jaeger.
+            + [Zipkin](task/): Learn how to configure the proxies to send tracing requests to Zipkin.
+            + [LightStep](task/): How to configure the proxies to send tracing requests to LightStep.
+        + [Visualizing Your Mesh](task/): This task shows you how to visualize your services within an Istio mesh.
+        + [Remotely Accessing Telemetry Addons](task/): This task shows you how to configure external access to the set of Istio telemetry addons.
     + [Multicluster Service Mesh](task/multicluster-service-mesh.md): A variety of fully working multicluster examples for Istio that you can experiment with.
-        + [Gateway-Connected Clusters](): Configuring remote services in a gateway-connected multicluster mesh.
-        + [Google Kubernetes Engine](): Set up a multicluster mesh over two GKE clusters.
-        + [IBM Cloud Private](): Example multicluster mesh over two IBM Cloud Private clusters.
-        + [Cluster-Aware Service Routing](): Leveraging Istio's Split-horizon EDS to create a multicluster mesh.
+        + [Gateway-Connected Clusters](task/): Configuring remote services in a gateway-connected multicluster mesh.
+        + [Google Kubernetes Engine](task/): Set up a multicluster mesh over two GKE clusters.
+        + [IBM Cloud Private](task/): Example multicluster mesh over two IBM Cloud Private clusters.
+        + [Cluster-Aware Service Routing](task/): Leveraging Istio's Split-horizon EDS to create a multicluster mesh.
 + Examples: A variety of fully working example uses for Istio that you can experiment with.
     + [Bookinfo Application](): Deploys a sample application composed of four separate microservices used to demonstrate various Istio features.
     + [Install Istio for Google Cloud Endpoints Services](): Explains how to manually integrate Google Cloud Endpoints services with Istio.
