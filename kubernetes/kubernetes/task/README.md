@@ -1,8 +1,8 @@
 # [Tasks](tasks.md)
 
-+ [Install Tools](#)
-    + [Install and Set Up kubectl](#)
-    + [Install Minikube](#)
++ Install Tools
+    + [Install and Set Up kubectl](install-and-set-up-kubectl.md)
+    + [Install Minikube](install-minikube.md)
 + [Configure Pods and Containers](#)
     + [Assign Memory Resources to Containers and Pods](#)
     + [Assign CPU Resources to Containers and Pods](#)
