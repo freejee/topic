@@ -9,6 +9,8 @@
 + [Cleanup](#cleanup)
 + [See also](#see-also)
 
+----------------------------------------------------------------------------------------------------
+
 This task shows you how to route requests dynamically to multiple versions of a microservice.
 
 ## Before you begin
@@ -45,13 +47,13 @@ In this case, the virtual services will route all traffic to **`v1`** of each mi
 > If you haven't already applied destination rules, follow the instructions in [Apply Default Destination Rules](https://istio.io/docs/examples/bookinfo/#apply-default-destination-rules).
 
 1. Run the following command to apply the virtual services: [virtual-service-all-v1.yaml](https://raw.githubusercontent.com/istio/istio/release-1.2/samples/bookinfo/networking/virtual-service-all-v1.yaml)
-   ```
+   ``` shell
    $ kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
    ```
    Because configuration propagation is eventually consistent, wait a few seconds for the virtual services to take effect.
 
 2. Display the defined routes with the following command:
-   ```
+   ``` yaml
    $ kubectl get virtualservices -o yaml
    apiVersion: networking.istio.io/v1alpha3
    kind: VirtualService
@@ -115,7 +117,7 @@ In this case, the virtual services will route all traffic to **`v1`** of each mi
    ```
 
 3. You can also display the corresponding **`subset`** definitions with the following command:
-   ```
+   ``` shell
    $ kubectl get destinationrules -o yaml
    ```
 
@@ -146,12 +148,12 @@ This example is enabled by the fact that the **`productpage`** service adds a cu
 Remember, **`reviews:v2`** is the version that includes the star ratings feature.
 
 1. Run the following command to enable user-based routing: [virtual-service-reviews-test-v2.yaml](https://raw.githubusercontent.com/istio/istio/release-1.2/samples/bookinfo/networking/virtual-service-reviews-test-v2.yaml)
-   ```
+   ``` shell
    $ kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-test-v2.yaml
    ```
 
 2. Confirm the rule is created:
-   ```
+   ``` yaml
    $ kubectl get virtualservice reviews -o yaml
    apiVersion: networking.istio.io/v1alpha3
    kind: VirtualService
@@ -209,13 +211,16 @@ In the [traffic shifting](https://istio.io/docs/tasks/traffic-management/traffic
 ## Cleanup
 
 1. Remove the application virtual services: [virtual-service-all-v1.yaml](https://raw.githubusercontent.com/istio/istio/release-1.2/samples/bookinfo/networking/virtual-service-all-v1.yaml)
-   ```
+   ``` shell
    $ kubectl delete -f samples/bookinfo/networking/virtual-service-all-v1.yaml
    ```
 
 2. If you are not planning to explore any follow-on tasks, refer to the [Bookinfo cleanup](https://istio.io/docs/examples/bookinfo/#cleanup) instructions to shutdown the application.
 
 ## See also
+
++ [Secure Control of Egress Traffic in Istio, part 2](https://istio.io/blog/2019/egress-traffic-control-in-istio-part-2/):
+  Use Istio Egress Traffic Control to prevent attacks involving egress traffic.
 
 + [Secure Control of Egress Traffic in Istio, part 1](https://istio.io/blog/2019/egress-traffic-control-in-istio-part-1/):
   Attacks involving egress traffic and requirements for egress traffic control.
@@ -231,8 +236,5 @@ In the [traffic shifting](https://istio.io/docs/tasks/traffic-management/traffic
 
 + [Deploy a Custom Ingress Gateway Using Cert-Manager](https://istio.io/blog/2019/custom-ingress-gateway/):
   Describes how to deploy a custom ingress gateway using cert-manager manually.
-
-+ [Incremental Istio Part 1, Traffic Management](https://istio.io/blog/2018/incremental-traffic-management/):
-  How to use Istio for traffic management without deploying sidecar proxies.
 
 
