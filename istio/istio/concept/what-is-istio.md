@@ -16,6 +16,8 @@
     + [Galley](#galley)
 + [Design Goals](#design-goals)
 
+----------------------------------------------------------------------------------------------------
+
 Cloud platforms provide a wealth of benefits for the organizations that use them.
 
 However, there's no denying that adopting the cloud can put strains on DevOps teams.
@@ -132,7 +134,7 @@ An Istio service mesh is logically split into a **`data plane`** and a **`contro
 
 The following diagram shows the different components that make up each plane:
 
-<img src="./image/arch.svg" width="80%" alt="The overall architecture of an Istio-based application." title="Istio Architecture"/>
+<img src="./image/arch.svg" alt="The overall architecture of an Istio-based application." title="Istio Architecture"  width="80%"/>
 
 ### Envoy
 
