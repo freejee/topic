@@ -61,7 +61,7 @@ We keep an [archive of the documentation for prior releases](https://archive.ist
 + Tasks: How to do single specific targeted activities with the Istio system.
     + Traffic Management: Tasks that demonstrate Istio's traffic routing features.
         + [Request Routing](task/request-routing.md): This task shows you how to configure dynamic request routing to multiple versions of a microservice.
-        + [Fault Injection](task/): This task shows you how to inject faults to test the resiliency of your application.
+        + [Fault Injection](task/fault-injection.md): This task shows you how to inject faults to test the resiliency of your application.
         + [Traffic Shifting](task/): Shows you how to migrate traffic from an old to new version of a service.
         + [TCP Traffic Shifting](task/): Shows you how to migrate TCP traffic from an old to new version of a TCP service.
         + [Request Timeouts](task/): This task shows you how to setup request timeouts in Envoy using Istio.
