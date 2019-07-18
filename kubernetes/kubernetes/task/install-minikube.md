@@ -33,7 +33,7 @@ This page shows you how to install [Minikube](https://kubernetes.io/docs/tutoria
 
 To check if virtualization is supported on Linux, run the following command and verify that the output is non-empty:
 
-``` shell
+```shell
 egrep --color 'vmx|svm' /proc/cpuinfo
 ```
 
@@ -41,7 +41,7 @@ egrep --color 'vmx|svm' /proc/cpuinfo
 
 To check if virtualization is supported on macOS, run the following command on your terminal.
 
-```
+```shell
 sysctl -a | grep machdep.cpu.features
 ```
 
@@ -51,13 +51,13 @@ If you see **`VMX`** in the output, the VT-x feature is supported on your OS.
 
 To check if virtualization is supported on Windows 8 and above, run the following command on your Windows terminal or command prompt.
 
-```
+```shell
 systeminfo
 ```
 
 If you see the following output, virtualization is supported on Windows.
 
-```
+```shell
 Hyper-V Requirements: VM Monitor Mode Extensions: Yes
                       Virtualization Enabled In Firmware: Yes
                       Second Level Address Translation: Yes
@@ -66,7 +66,7 @@ Hyper-V Requirements: VM Monitor Mode Extensions: Yes
 
 If you see the following output, your system already has a Hypervisor installed and you can skip the next step.
 
-```
+```shell
 Hyper-V Requirements: A hypervisor has been detected. Features required for Hyper-V will not be displayed.
 ```
 
