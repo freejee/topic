@@ -1,5 +1,11 @@
 # Cloud Provider OpenStack
 
++ [Developing](#developing)
++ [Contact](#contact)
++ [License](#license)
+
+----------------------------------------------------------------------------------------------------
+
 Thank you for visiting the **`Cloud Provider OpenStack`** repository!
 
 This Repository hosts various plugins relavant to OpenStack and Kubernetes Integration
