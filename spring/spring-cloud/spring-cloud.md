@@ -235,7 +235,7 @@ Bootstrap your application with [Spring Initializr](https://start.spring.io/).
 
 ### Documentation
 
-Each Spring project has its own; it explains in great details how you can use project features and what you can achieve with them.
+Each **`Spring project`** has its own; it explains in great details how you can use **`project features`** and what you can achieve with them.
 
  Release Version                | Reference Doc                                                                        | API Doc
 --------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------
