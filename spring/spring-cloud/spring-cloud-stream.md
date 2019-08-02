@@ -55,18 +55,18 @@ Bootstrap your application with [Spring Initializr](https://start.spring.io/).
 
 Each **`Spring project`** has its own; it explains in great details how you can use **`project features`** and what you can achieve with them.
 
- Release Version                   | Reference Doc                                                                                                            | API Doc
------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------
- Horsham M2 **`PRE **`CURRENT`**   | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/3.0.0.M2/home.html)                     | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/3.0.0.M2/home.html)
- Germantown **`GA`** **`CURRENT`** | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.2.0.RELEASE/home.html)                | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.2.0.RELEASE/home.html)
- Fishtown SR3 **`GA`**             | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.1.3.RELEASE/)                         | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.1.3.RELEASE)
- Fishtown **`SNAPSHOT`**           | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Fishtown.BUILD-SNAPSHOT/reference/htmlsingle/)          | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Fishtown.BUILD-SNAPSHOT/api/)
- Elmhurst SR3 **`GA`**             | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.SR3/reference/htmlsingle/)                     | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.SR3/api/)
- Ditmars SR5 **`GA`**              | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.SR5/reference/htmlsingle/)                      | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.SR5/api/)
- Ditmars **`SNAPSHOT`**            | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.BUILD-SNAPSHOT/reference/htmlsingle/)           | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.BUILD-SNAPSHOT/api/)
- Chelsea SR2 **`GA`**              | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.SR2/reference/htmlsingle/index.html)            | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.SR2/api/)
- Chelsea **`SNAPSHOT`**            | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.BUILD-SNAPSHOT/reference/htmlsingle/index.html) | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.BUILD-SNAPSHOT/api/)
- Brooklyn SR3 **`GA`**             | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.SR3/reference/htmlsingle/)                     | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.SR3/api/)
+ Release Version                      | Reference Doc                                                                                                            | API Doc
+--------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------
+ Horsham M2 **`PRE`** **`CURRENT`**   | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/3.0.0.M2/home.html)                     | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/3.0.0.M2/home.html)
+ Germantown **`GA`** **`CURRENT`**    | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.2.0.RELEASE/home.html)                | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.2.0.RELEASE/home.html)
+ Fishtown SR3 **`GA`**                | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.1.3.RELEASE/)                         | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.1.3.RELEASE)
+ Fishtown **`SNAPSHOT`**              | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Fishtown.BUILD-SNAPSHOT/reference/htmlsingle/)          | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Fishtown.BUILD-SNAPSHOT/api/)
+ Elmhurst SR3 **`GA`**                | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.SR3/reference/htmlsingle/)                     | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.SR3/api/)
+ Ditmars SR5 **`GA`**                 | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.SR5/reference/htmlsingle/)                      | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.SR5/api/)
+ Ditmars **`SNAPSHOT`**               | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.BUILD-SNAPSHOT/reference/htmlsingle/)           | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Ditmars.BUILD-SNAPSHOT/api/)
+ Chelsea SR2 **`GA`**                 | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.SR2/reference/htmlsingle/index.html)            | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.SR2/api/)
+ Chelsea **`SNAPSHOT`**               | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.BUILD-SNAPSHOT/reference/htmlsingle/index.html) | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Chelsea.BUILD-SNAPSHOT/api/)
+ Brooklyn SR3 **`GA`**                | [Reference Doc.](https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.SR3/reference/htmlsingle/)                     | [API Doc.](https://docs.spring.io/spring-cloud-stream/docs/Brooklyn.SR3/api/)
 
 ## Samples
 
