@@ -237,16 +237,16 @@ Bootstrap your application with [Spring Initializr](https://start.spring.io/).
 
 Each **`Spring project`** has its own; it explains in great details how you can use **`project features`** and what you can achieve with them.
 
- Release Version                | Reference Doc                                                                        | API Doc
---------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------
- Greenwich SR2 **`CURRENT GA`** | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Greenwich.SR2/)         | [API Doc.](https://spring.io/projects/spring-cloud)
- Hoxton **`SNAPSHOT`**          | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Hoxton.BUILD-SNAPSHOT/) | [API Doc.](https://spring.io/projects/spring-cloud)
- Greenwich **`SNAPSHOT`**       | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)
- Finchley **`SR3 GA`**          | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Finchley.SR3/)          | [API Doc.](https://spring.io/projects/spring-cloud)
- Finchley **`SNAPSHOT`**        | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)
- Edgware **`SR6 GA`**           | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Edgware.SR6/index.html) | [API Doc.](https://spring.io/projects/spring-cloud)
- Edgware **`SNAPSHOT`**         | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)
- Dalston **`SR5 GA`**           | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Dalston.SR5/)           | [API Doc.](https://spring.io/projects/spring-cloud)
+ Release Version                      | Reference Doc                                                                        | API Doc
+--------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------
+ Greenwich SR2 **`GA`** **`CURRENT`** | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Greenwich.SR2/)         | [API Doc.](https://spring.io/projects/spring-cloud)
+ Hoxton **`SNAPSHOT`**                | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Hoxton.BUILD-SNAPSHOT/) | [API Doc.](https://spring.io/projects/spring-cloud)
+ Greenwich **`SNAPSHOT`**             | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)
+ Finchley SR3 **`GA`**                | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Finchley.SR3/)          | [API Doc.](https://spring.io/projects/spring-cloud)
+ Finchley **`SNAPSHOT`**              | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)
+ Edgware SR6 **`GA`**                 | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Edgware.SR6/index.html) | [API Doc.](https://spring.io/projects/spring-cloud)
+ Edgware **`SNAPSHOT`**               | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)
+ Dalston SR5 **`GA`**                 | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Dalston.SR5/)           | [API Doc.](https://spring.io/projects/spring-cloud)
 
 ## Samples
 
