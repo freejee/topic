@@ -5,7 +5,7 @@
         + [Annotation-based SQS Queue Listener](#annotation-based-sqs-queue-listener)
         + [Annotation-based SNS Listener](#annotation-based-sns-listener)
         + [Messaging Templates](#messaging-templates)
-    + [Quick start](#quick-start-1)
+    + [Quick start](#quick-start)
 + [Learn](#learn)
     + [Documentation](#documentation)
 + [Samples](#samples)

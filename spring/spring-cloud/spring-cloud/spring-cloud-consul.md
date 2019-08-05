@@ -2,7 +2,7 @@
 
 + [Overview](#overview)
     + [Features](#features)
-    + [Getting Started](#quick-start)
+    + [Quick Start](#quick-start)
     + [Quick start](#quick-start-1)
 + [Learn](#learn)
     + [Documentation](#documentation)
