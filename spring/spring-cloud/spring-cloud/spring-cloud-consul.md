@@ -1,4 +1,4 @@
-# Spring Cloud OpenFeign
+# Spring Cloud Consul
 
 + [Overview](#overview)
     + [Features](#features)
