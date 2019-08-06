@@ -76,7 +76,7 @@ Bootstrap your application with [Spring Initializr](https://start.spring.io/).
 Each **`Spring project`** has its own; it explains in great details how you can use **`project features`** and what you can achieve with them.
 
  Release Version                    | Reference Doc                                                                                    | API Doc
-------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------
+:-----------------------------------|:-------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------
  2.2.0 M1 **`PRE`** **`CURRENT`**   | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-consul/2.2.0.M1/)      | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-consul/2.2.0.M1/)
  2.2.0 **`SNAPSHOT`** **`CURRENT`** | [Reference Doc.](https://cloud.spring.io/spring-cloud-consul/spring-cloud-consul.html)           | [API Doc.](https://cloud.spring.io/spring-cloud-consul/spring-cloud-consul.html)
  2.1.3 **`SNAPSHOT`** **`CURRENT`** | [Reference Doc.](https://cloud.spring.io/spring-cloud-consul/2.1.x/)                             | [API Doc.](https://cloud.spring.io/spring-cloud-consul/2.1.x/)

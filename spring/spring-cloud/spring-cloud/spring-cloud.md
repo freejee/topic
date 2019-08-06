@@ -156,7 +156,7 @@ When point releases of the individual projects accumulate to a critical mass, or
 Table 1. Release train Spring Boot compatibility
 
  Release Train | Boot Version
----------------|--------------
+:--------------|:-------------
  Greenwich     | 2.1.x
  Finchley      | 2.0.x
  Edgware       | 1.5.x
@@ -167,7 +167,7 @@ Table 1. Release train Spring Boot compatibility
 Table 2. Release train contents
 
  Component                 | Edgware.SR6    | Finchley.SR2  | Finchley.BUILD-SNAPSHOT
----------------------------|----------------|---------------|-------------------------
+:--------------------------|:---------------|:--------------|:------------------------
  spring-cloud-aws          | 1.2.4.RELEASE  | 2.0.1.RELEASE | 2.0.1.BUILD-SNAPSHOT
  spring-cloud-bus          | 1.3.4.RELEASE  | 2.0.0.RELEASE | 2.0.1.BUILD-SNAPSHOT
  spring-cloud-cli          | 1.4.1.RELEASE  | 2.0.0.RELEASE | 2.0.1.BUILD-SNAPSHOT
@@ -238,7 +238,7 @@ Bootstrap your application with [Spring Initializr](https://start.spring.io/).
 Each **`Spring project`** has its own; it explains in great details how you can use **`project features`** and what you can achieve with them.
 
  Release Version                      | Reference Doc                                                                        | API Doc
---------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------
+:-------------------------------------|:-------------------------------------------------------------------------------------|:----------------------------------------------------
  Greenwich SR2 **`GA`** **`CURRENT`** | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Greenwich.SR2/)         | [API Doc.](https://spring.io/projects/spring-cloud)
  Hoxton **`SNAPSHOT`**                | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/Hoxton.BUILD-SNAPSHOT/) | [API Doc.](https://spring.io/projects/spring-cloud)
  Greenwich **`SNAPSHOT`**             | [Reference Doc.](https://spring.io/projects/spring-cloud)                            | [API Doc.](https://spring.io/projects/spring-cloud)

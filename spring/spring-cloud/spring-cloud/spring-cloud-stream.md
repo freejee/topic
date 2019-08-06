@@ -56,7 +56,7 @@ Bootstrap your application with [Spring Initializr](https://start.spring.io/).
 Each **`Spring project`** has its own; it explains in great details how you can use **`project features`** and what you can achieve with them.
 
  Release Version                      | Reference Doc                                                                                                            | API Doc
---------------------------------------|--------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------
+:-------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------
  Horsham M2 **`PRE`** **`CURRENT`**   | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/3.0.0.M2/home.html)                     | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/3.0.0.M2/home.html)
  Germantown **`GA`** **`CURRENT`**    | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.2.0.RELEASE/home.html)                | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.2.0.RELEASE/home.html)
  Fishtown SR3 **`GA`**                | [Reference Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.1.3.RELEASE/)                         | [API Doc.](https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/2.1.3.RELEASE)
