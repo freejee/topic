@@ -1,0 +1,15 @@
+software.amazon.awssdk.services.acm
+software.amazon.awssdk.services.acm.model
+software.amazon.awssdk.services.acm.paginators
+software.amazon.awssdk.services.acm.transform
+software.amazon.awssdk.services.acmpca
+software.amazon.awssdk.services.acmpca.model
+software.amazon.awssdk.services.acmpca.paginators
+software.amazon.awssdk.services.acmpca.transform
+
+
+
+
+
+
+
